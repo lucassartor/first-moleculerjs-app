@@ -21,7 +21,7 @@ Simple users API using microservices.
   | :--- | :--- | :--- |
   | `username` | `lucas` | Required | 
   | `email` | `lucas@gmail.com` | Required |
-  | `password` | `123` | Required |
+  | `password` | `123456` | Required |
   | `age` | 19 | Optional |
   
 
