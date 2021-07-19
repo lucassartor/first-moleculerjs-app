@@ -43,13 +43,22 @@ module.exports = {
             rest: "POST /users",
 
             params: {
-                user: {
-                    type: "object"
+                username: {
+                    type: "string",
+                },
+                password: {
+                    type: "string",
+                },
+                email: {
+                    type: "email",
+                },
+                age: {
+                    type: "number",
                 }
             },
 
             async handler(ctx) {
-                let entity = ctx.params.user;
+                let entity = ctx.params;
 
                 await this.validateEntity(entity);
 
