@@ -17,12 +17,10 @@ Simple users API using microservices.
 | `/api/users`  | `POST` |
   
   **Parameters:**
-  | Argument | Example | Required |
+  | Argument | Example | Type
   | :--- | :--- | :--- |
-  | `username` | `lucas` | Required | 
-  | `email` | `lucas@gmail.com` | Required |
-  | `password` | `123` | Required |
-  | `age` | 19 | Optional |
+  | `user` | `{"username": "lucas", "email": "lucas@gmail.com", "password": "123456", "age": 19}` | Object
+  
 
 ### - GET
 
